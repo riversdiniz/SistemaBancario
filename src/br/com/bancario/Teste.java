@@ -16,6 +16,11 @@ public class Teste {
         poupanca.retirar(50);
 
         System.out.println(poupanca.verifcarSaldo());
+        
+        Conta cc2 = null;
 
+        if (cc2 != null) {
+            cc2.depositar(1000);
+        }
     }
 }
