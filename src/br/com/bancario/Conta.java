@@ -1,5 +1,7 @@
 package br.com.bancario;
 
+import java.io.Serializable;
+
 /**
  * Classe que abstrai uma Conta Bancária
  * 
@@ -7,7 +9,7 @@ package br.com.bancario;
  * @version 1.0
  */
 
-public class Conta {
+public class Conta implements Serializable {
 
     // Atributos de Classes
     private int agencia;
@@ -49,7 +51,7 @@ public class Conta {
         this.saldo -= valor;
     }
 
-    public double verifcarSaldo() {
+    public double getSaldo() {
         return this.saldo;
     }
 
