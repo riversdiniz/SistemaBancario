@@ -8,5 +8,9 @@ public class Teste {
         cc.agencia = 123;
         cc.numero = 321;
 
+        cc.depositar(1000);
+
+        System.out.println(cc.verifcarSaldo());
+
     }
 }
