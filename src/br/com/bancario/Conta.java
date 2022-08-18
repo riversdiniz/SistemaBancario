@@ -2,7 +2,8 @@ package br.com.bancario;
 
 public class Conta {
     
-    protected int agencia;
+    // Atributos de Classes
+    int agencia;
     int numero;
     double saldo;
 
@@ -10,6 +11,7 @@ public class Conta {
 
     }
 
+    // Construtor de Classe
     public Conta(int agencia, int numero, double saldo){
         this.agencia =  agencia;
         this.numero = numero;
@@ -17,6 +19,7 @@ public class Conta {
         
     }
 
+    // Depositar da Classe Conta
     public void depositar(double valor){
         this.saldo += valor;
     }
