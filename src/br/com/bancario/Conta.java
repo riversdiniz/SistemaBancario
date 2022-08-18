@@ -10,9 +10,9 @@ package br.com.bancario;
 public class Conta {
 
     // Atributos de Classes
-    int agencia;
-    int numero;
-    double saldo;
+    private int agencia;
+    private int numero;
+    private double saldo;
 
     public Conta() {
 
@@ -23,7 +23,22 @@ public class Conta {
         this.agencia = agencia;
         this.numero = numero;
         this.saldo = saldo;
+    }
 
+    public int getAgencia() {
+        return agencia;
+    }
+
+    public void setAgencia(int agencia) {
+        this.agencia = agencia;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
     }
 
     /**
