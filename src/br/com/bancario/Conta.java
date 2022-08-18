@@ -2,7 +2,7 @@ package br.com.bancario;
 
 public class Conta {
     
-    int agencia;
+    protected int agencia;
     int numero;
     double saldo;
 
@@ -11,7 +11,6 @@ public class Conta {
     }
 
     public Conta(int agencia, int numero, double saldo){
-
         this.agencia =  agencia;
         this.numero = numero;
         this.saldo =  saldo;
